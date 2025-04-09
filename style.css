@@ -1,0 +1,54 @@
+.iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.iframe>*{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    left: 25%;
+    bottom: 15%;
+}
+i:hover{
+    background: blue;
+}
+.heading{
+    width: 150px;
+    margin: auto;
+}
+.heading:hover{
+    border-bottom: 2px solid #000;
+}
+
+@media screen and (max-width:600px) {
+    .learn-btn{
+      width: 80px;
+      font-size: 11px;
+    }
+    body{
+        background-color: aqua;
+    }
+    .about-head{
+        float: left;
+    }
+    /* .heading{
+        width: 40%;
+    } */
+}
+
+@media screen and (max-width:430px) {
+    .learn-btn{
+        width: 70px;
+        font-size: 8px;
+    }
+}
